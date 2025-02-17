@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gsoft-inc/ov-igloo-icons.git"
+    "url": "git+https://github.com/workleap/ov-igloo-icons.git"
   },
   "keywords": [
     "igloo-ui",
@@ -29,9 +29,9 @@
   "author": "Groupe Officevibe Inc.",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/gsoft-inc/ov-igloo-icons/issues"
+    "url": "https://github.com/workleap/ov-igloo-icons/issues"
   },
-  "homepage": "https://github.com/gsoft-inc/ov-igloo-icons#readme",
+  "homepage": "https://github.com/workleap/ov-igloo-icons#readme",
   "dependencies": {
     "classnames": "^2.3.1",
     "html-react-parser": "^1.2.7"
