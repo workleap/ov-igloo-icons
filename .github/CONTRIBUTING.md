@@ -40,7 +40,7 @@ Scan through our [existing issues](https://github.com/workleap/ov-igloo-icons/is
 - GitHub Codespaces:
   - [Fork, edit, and preview](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace) using [GitHub Codespaces](https://github.com/features/codespaces) without having to install and run the project locally.
 
-2. Install or update to **Node.js v22** or later.
+2. Install or update to **Node.js v26** or later.
 
 3. Install [pnpm](https://pnpm.io/installation) (the version is pinned in `packageManager` in `package.json`).
 
