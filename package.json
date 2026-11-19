@@ -5,17 +5,17 @@
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "yarn clean && node build.js && yarn babel",
+    "build": "pnpm clean && node build.js && pnpm babel",
     "babel": "babel components --out-dir dist --copy-files",
-    "deploy": "yarn build-storybook && gh-pages -d storybook-static",
+    "deploy": "pnpm build-storybook && gh-pages -d storybook-static",
     "lint": "eslint *.js",
     "format": "prettier -w src/*",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "yarn build && changeset publish",
+    "release": "pnpm build && changeset publish",
     "storybook": "storybook dev -s public",
     "build-storybook": "storybook build -s public",
-    "chromatic": "npx chromatic --project-token=eb3412a9c05f"
+    "chromatic": "pnpm exec chromatic"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
   ],
   "author": "Groupe Officevibe Inc.",
   "license": "Apache-2.0",
+  "packageManager": "pnpm@12.20.0",
   "bugs": {
     "url": "https://github.com/workleap/ov-igloo-icons/issues"
   },
