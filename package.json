@@ -15,7 +15,7 @@
     "release": "pnpm build && changeset publish",
     "storybook": "storybook dev -s public",
     "build-storybook": "storybook build -s public",
-    "chromatic": "pnpm exec chromatic --project-token=eb3412a9c05f"
+    "chromatic": "pnpm exec chromatic"
   },
   "repository": {
     "type": "git",
